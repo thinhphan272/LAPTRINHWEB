@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "FormDangNhap";
+    Layout = "~/Views/Share/_LayoutPage.cshtml";
+}
+
+
+
+<div class="container shadow" style="float: left; width: 900px; margin-left: 50px; background-color: rgb(242, 242, 242); margin-top: 20px; border-radius:15px">
+    <h3 style="text-align: center; margin-top: 20px">ĐĂNG NHẬP</h3>
+    <form>
+        <div class="form-group mb-3">
+            <label for="userName" class="form-label">UserName</label>
+            <input type="text" id="userName" name="userName" class="form-control is-invalid" placeholder="Enter your username" required/>
+            <div class="invalid-feedback">Must to enter your username</div>
+        </div>
+        <div class="form-group mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" id="password" name="password" class="form-control is-valid" value="Enter your password" required/ >
+            <div class="valid-feedback">Password include special character!</div>
+            
+        </div>
+        <div class="form-group">
+            <input class="form-check-label" type="checkbox" value="" id="rememberPW" required/>
+            <label for="rememberPW" class="form-check-label">Remember password</label>
+
+        </div>
+        <div class="form-group mb-3" align="center">
+            <button class="btn btn-primary">ĐĂNG NHẬP</button>
+
+        </div>
+
+    </form>
+
+</div>

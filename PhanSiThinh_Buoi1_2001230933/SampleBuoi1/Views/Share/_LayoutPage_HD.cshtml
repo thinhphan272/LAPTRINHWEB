@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+  <!--Nơi nhúng CSS-->
+</head>
+<body>
+    <!--Header-->
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <div class="container">
+            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <!-- <a class="nav-link" href="/">Home</a>-->
+                    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    @*<a class="nav-link" href="/Home/About">About</a>*@
+                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <!--Nội dung trang-->
+        <div class=" body-content">
+            @RenderBody()
+        </div>
+        <!--Nội dung menu phải-->
+        <div class="right-menu">
+            <div class="mb-4">
+                <div class="side-heading">HOA THEO CHỦ ĐỀ</div>
+                <div class="list-group list-group-flush border">
+                    <a href=" class="list-group-item">HOA SINH NHẬT</a>
+                    <a href="" class="list-group-item">HOA KHAI TRƯƠNG</a>
+                 
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <div class="side-heading">CHỌN THEO GIÁ</div>
+                <div class="list-group list-group-flush border">
+                    <a href="" class="list-group-item">250,000đ trở xuống</a>
+                    <a href="" class="list-group-item">250,000đ – 400,000đ</a>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    <!--Nơi nhúng Scripts-->
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿
+@model LTWeb02_Bai2.Models.Book
+@{
+    ViewBag.Title = "Detail";
+}
+
+
+
+
+
+@{
+    <div class="container w-75" style="border-radius: 10px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3)">
+            <div class="row">
+                <div class="col mt-3 mb-3">
+                    <img src="@Model.imageURL" class="w-100" style="border-radius: 20px" alt="Hình ảnh sản phẩm" />
+                </div>
+                <div class="col mt-3 mb-3">
+                    <p>Tác giả: <span style="color: dodgerblue">@Model.tenTG</span></p>
+                    <h2>@Model.tenSach</h2>
+                    <h2>Giá: @Model.gia.ToString("N0") </h2>
+                    <a href="@Url.Action("Index", "Book", new {})" class="btn btn-primary w-50">Xem sản phẩm tương tự</a>
+                    <h1 style="color: rgb(203, 203, 203); text-decoration: underline">Mô tả sản phẩm</h1>
+                    <p>@Model.moTa</p>
+                </div>
+            </div>
+    </div>
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>

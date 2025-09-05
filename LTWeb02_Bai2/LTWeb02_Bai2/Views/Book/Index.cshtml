@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@model List<LTWeb02_Bai2.Models.Book>
+
+<div class="container">
+    <h3 style="margin-top: 20px">SẢN PHẨM TIÊU BIỂU</h3>
+
+    <div class="container text-center w-75">
+        <div class="row">
+            @{
+                foreach (var item in Model)
+                {
+                    <div class="col-md-4 col-lg-3  col-sm-6 mb-3">
+                        <div class="card" style="height: 25rem; border: 1px solid rgb(255, 152, 129); border-radius: 0px">
+                            <img src="@item.imageURL" style="height: 200px"  class="card-img-top" />
+
+                            <div class="card-body">
+                                <h5 class="card-title h-50">@item.tenSach</h5>
+                                <p class="card-text">Giá: <span style="color: red">@item.gia.ToString("N0") VNĐ</span></p>
+                                <a href="@Url.Action("Detail", "Book", new {id = item.maSach})" style="margin-bottom: 10px; background-color: rgb(255, 152, 129); color: white" class="btn bth-primary w-100">🛒CHỌN MUA</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+
+        </div>
+    </div>
+</div>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>

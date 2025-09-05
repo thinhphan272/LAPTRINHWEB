@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTWeb02_Bai2", "LTWeb02_Bai2\LTWeb02_Bai2.csproj", "{D1CE44EF-E38E-476C-A2C8-471874EF68BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai03", "Bai03\Bai03.csproj", "{E02920CF-F738-4485-8AFE-901BE01939CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1CE44EF-E38E-476C-A2C8-471874EF68BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CE44EF-E38E-476C-A2C8-471874EF68BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CE44EF-E38E-476C-A2C8-471874EF68BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CE44EF-E38E-476C-A2C8-471874EF68BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02920CF-F738-4485-8AFE-901BE01939CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02920CF-F738-4485-8AFE-901BE01939CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02920CF-F738-4485-8AFE-901BE01939CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02920CF-F738-4485-8AFE-901BE01939CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BAF6BA7-729B-4B07-B535-ED10C9016D83}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,104 @@
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\SampleBuoi1.dll.config
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\SampleBuoi1.dll
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\SampleBuoi1.pdb
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\Microsoft.Web.Infrastructure.dll
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\Newtonsoft.Json.dll
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\System.Web.Helpers.dll
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\System.Web.Mvc.dll
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\System.Web.Razor.dll
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\System.Web.WebPages.Deployment.dll
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\System.Web.WebPages.dll
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\System.Web.WebPages.Razor.dll
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\Newtonsoft.Json.xml
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\System.Web.Helpers.xml
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\System.Web.Mvc.xml
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\System.Web.Razor.xml
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\System.Web.WebPages.xml
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\System.Web.WebPages.Deployment.xml
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\bin\System.Web.WebPages.Razor.xml
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\obj\Debug\SampleBuoi1.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\obj\Debug\SampleBuoi1.dll
+E:\LuuDuLieuSinhVien\PhanThinh_2001230933\SampleBuoi1\SampleBuoi1\obj\Debug\SampleBuoi1.pdb
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\SampleBuoi1.dll.config
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\SampleBuoi1.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\SampleBuoi1.pdb
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\Microsoft.Web.Infrastructure.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\Newtonsoft.Json.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Net.Http.Formatting.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Helpers.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Http.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Http.WebHost.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Mvc.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Razor.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.Deployment.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.Razor.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\Newtonsoft.Json.xml
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Net.Http.Formatting.xml
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Helpers.xml
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Http.xml
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Http.WebHost.xml
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Mvc.xml
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Razor.xml
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.xml
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.Deployment.xml
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.Razor.xml
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\obj\Debug\SampleBuoi1.csproj.AssemblyReference.cache
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\obj\Debug\SampleBuoi1.csproj.CoreCompileInputs.cache
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\obj\Debug\SampleBuoi1.csproj.CopyComplete
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\obj\Debug\SampleBuoi1.dll
+C:\C\FILE KỲ 5 (NĂM 3)\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\obj\Debug\SampleBuoi1.pdb
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\SampleBuoi1.dll.config
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\SampleBuoi1.dll
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\SampleBuoi1.pdb
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\Microsoft.Web.Infrastructure.dll
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\Newtonsoft.Json.dll
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Helpers.dll
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Mvc.dll
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Razor.dll
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.Deployment.dll
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.dll
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.Razor.dll
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\Newtonsoft.Json.xml
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Helpers.xml
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Mvc.xml
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Razor.xml
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.xml
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.Deployment.xml
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.Razor.xml
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\obj\Debug\SampleBuoi1.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\obj\Debug\SampleBuoi1.dll
+E:\LuuDuLieuSinhVien\PhanSiThinh_2001230933\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\obj\Debug\SampleBuoi1.pdb
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\SampleBuoi1.dll.config
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\SampleBuoi1.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\SampleBuoi1.pdb
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\Microsoft.Web.Infrastructure.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\Newtonsoft.Json.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Net.Http.Formatting.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Helpers.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Http.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Http.WebHost.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Mvc.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Razor.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.Deployment.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.Razor.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\Newtonsoft.Json.xml
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Net.Http.Formatting.xml
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Helpers.xml
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Http.xml
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Http.WebHost.xml
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Mvc.xml
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.Razor.xml
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.xml
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.Deployment.xml
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\bin\System.Web.WebPages.Razor.xml
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\obj\Debug\SampleBuoi1.csproj.AssemblyReference.cache
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\obj\Debug\SampleBuoi1.csproj.CoreCompileInputs.cache
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\obj\Debug\SampleBuoi1.csproj.CopyComplete
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\obj\Debug\SampleBuoi1.dll
+C:\C\file_ky5\LẬP TRÌNH WEB\PhanSiThinh_Buoi1_2001230933\SampleBuoi1\obj\Debug\SampleBuoi1.pdb

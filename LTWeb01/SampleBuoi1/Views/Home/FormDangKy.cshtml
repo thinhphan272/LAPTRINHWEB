@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "FormDangKy";
+    Layout = "~/Views/Share/_LayoutPage.cshtml";
+}
+
+
+
+<div class="container shadow" style="float: left; width: 900px; margin-left: 50px; background-color: rgb(242, 242, 242); margin-top: 20px; border-radius:15px">
+    <form>
+        <h3 style="text-align: center; margin-top: 20px">ĐĂNG KÝ TÀI KHOẢN</h3>
+        <div class="mb-3">
+            <label for="name" class="form-label">Tên khách hàng</label>
+            <input class="form-control" id="name" name="name" placeholder="Enter your name" required />
+            <div class="invalid-feedback">Vui lòng nhập tên của bạn!</div>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Địa chỉ Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email Address" required/>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input class="form-control" id="password" name="password" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="sex">Giới tính</label>
+
+            <div style="margin-left: 150px">
+                <div class="form-check form-check-inline ms-4">
+                    <input class="form-check-input" type="radio" name="sex" id="sex_female" value="female" />
+                    <label class="form-check-label" for="sex_female">Nam</label>
+                </div>
+                <div class="form-check form-check-inline ms-4">
+                    <input class="form-check-input" type="radio" name="sex" id="sex_male" value="male" />
+                    <label class="form-check-label" for="sex_male">Nữ</label>
+                </div>
+                <div class="form-check form-check-inline ms-4">
+                    <input class="form-check-input" type="radio" name="sex" id="sex_others" value="others"  />
+                    <label class="form-check-label" for="sex_others">Khác</label>
+                </div>
+            </div>
+            
+
+
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" for="job">Nghề nghiệp</label>
+            <select class="form-select" id="job" name="job">
+                <option selected>Giáo viên</option>
+                <option value="1">Công an</option>
+                <option value="2">Lính cứu hỏa</option>
+                <option value="3">Bác sĩ</option>
+                <option value="4">Học sinh/Sinh viên</option>
+                <option value="5">Khác</option>
+
+            </select>
+        </div>
+        <div class="mb-3" align="center">
+            <button type="button" class="btn btn-primary btn-lg">
+                Đăng ký
+            </button>
+        </div>
+        
+    </form>
+
+
+
+</div>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
