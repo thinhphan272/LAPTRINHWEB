@@ -58,3 +58,37 @@ C:\C\file_ky5\LẬP TRÌNH WEB\LTWeb02_Bai2\LTWeb02_Bai2\obj\Debug\LTWeb02_Bai2.
 C:\C\file_ky5\LẬP TRÌNH WEB\LTWeb02_Bai2\LTWeb02_Bai2\obj\Debug\LTWeb02_Bai2.csproj.CopyComplete
 C:\C\file_ky5\LẬP TRÌNH WEB\LTWeb02_Bai2\LTWeb02_Bai2\obj\Debug\LTWeb02_Bai2.dll
 C:\C\file_ky5\LẬP TRÌNH WEB\LTWeb02_Bai2\LTWeb02_Bai2\obj\Debug\LTWeb02_Bai2.pdb
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\LTWeb02_Bai2.dll.config
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\LTWeb02_Bai2.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\LTWeb02_Bai2.pdb
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\Antlr3.Runtime.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\EntityFramework.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\Microsoft.Web.Infrastructure.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\Newtonsoft.Json.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Net.Http.Formatting.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.Http.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.Http.WebHost.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.Mvc.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.Optimization.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.Providers.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.Razor.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.WebPages.Deployment.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.WebPages.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.WebPages.Razor.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\WebGrease.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\EntityFramework.xml
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\Newtonsoft.Json.xml
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Net.Http.Formatting.xml
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.Http.xml
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.Http.WebHost.xml
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.Mvc.xml
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.Razor.xml
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.WebPages.xml
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.WebPages.Deployment.xml
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\bin\System.Web.WebPages.Razor.xml
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\obj\Debug\LTWeb02_Bai2.csproj.AssemblyReference.cache
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\obj\Debug\LTWeb02_Bai2.csproj.CoreCompileInputs.cache
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\obj\Debug\LTWeb02_Bai2.csproj.CopyComplete
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\obj\Debug\LTWeb02_Bai2.dll
+C:\C\file_ky5\LAPTRINHWEB\LTWeb02_Bai2\LTWeb02_Bai2\obj\Debug\LTWeb02_Bai2.pdb

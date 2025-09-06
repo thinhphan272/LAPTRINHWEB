@@ -13,5 +13,7 @@ namespace Bai03.Models
         public string hinhanh { get; set; }
         public int maLoai { get; set; }
         public string tenLoai { get; set;}
+
+        
     }
 }

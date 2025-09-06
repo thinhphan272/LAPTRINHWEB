@@ -1,0 +1,78 @@
+﻿@model List<Bai03.Models.Product_Book>
+@{
+    ViewBag.Title = "ListProduct";
+}
+
+
+
+<div class="container w-75">
+
+    <h2>ListProduct</h2>
+    <div class="row" style="border: 1px solid">
+        <div class="col-4" style="border: 1px solid">
+            <div style="background-color: black; color: red; font-size: 25px" align ="center">
+                <h1>Loại sách</h1>
+
+            </div>
+            <table class="table text-center">
+                <thead>
+                    <tr>
+                        <th>Tên loại</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    @{
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.tenLoai</td>
+                                
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+            
+            
+        </div>
+        <div class="col-8" style="border: 1px solid">
+            <div style="background-color: black; color: red; font-size: 25px" align="center">
+                <h1>DANH SÁCH SẢN PHẨM</h1>
+
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Mã sách</th>
+                        <th scope="col">Tên sách</th>
+                        <th scope="col">Giá</th>
+                        <th scope="col">Hình ảnh</th>
+                        <th scope="col">Mã loại</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{ 
+                        foreach(var item in Model) 
+                        { 
+                            <tr>
+                                <td>@item.maSach</td>
+                                <td>@item.tenSach</td>
+                                <td>@item.gia</td>
+                                <td>@item.hinhanh</td>
+                                <td>@item.maLoai</td>
+                            </tr>
+                        }
+                    }
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
