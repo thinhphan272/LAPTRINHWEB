@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "TrangChu";
+    Layout = "~/Views/Home/_LayoutPage.cshtml";
+}
+
+@model List<Bai4.Models.Product>
+
+<div class="container mt-2 mb-2">
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/Content/Image/ongdongcarousel.jpg" height="300px" class="d-block w-100" alt="ongDCar1">
+            </div>
+            <div class="carousel-item">
+                <img src="~/Content/Image/ongDCar2.jpg" height="300px" class="d-block w-100" alt="ongDCar2">
+            </div>
+            <div class="carousel-item">
+                <img src="~/Content/Image/ongDCar3.jpg" height="300px" class="d-block w-100" alt="ongDCar3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+
+    </div>
+    <div class="w-100 bg-light mt-4 mb-4 p-1" style="border: 1px solid rgb(204, 204, 204)">
+        <h5>ỐNG ĐỒNG</h5>
+    </div>
+
+    <div class="row mt-2">
+        @{
+            foreach (var item in Model)
+            {
+                <div class="card ms-3 me-3" style="width: 14rem;">
+                    <img src="@item.imgURL" style="height:190px" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title">@item.tenSP</h6>
+                        <p class="card-text" style="font-size: 11px">@item.moTa</p>
+                        <p class="card-text text-success">Giá: <span class="fw-bold">Liên hệ</span></p>
+                        <a href="#" class="btn btn-primary">> Chi tiết</a>
+                    </div>
+                </div>
+            }
+        }
+
+    </div>
+
+</div>
+

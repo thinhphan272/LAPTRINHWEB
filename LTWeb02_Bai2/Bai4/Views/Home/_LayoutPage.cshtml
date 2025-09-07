@@ -1,42 +1,156 @@
-﻿
-@{
-    ViewBag.Title = "_LayoutPage";
-}
+﻿@model List<Bai4.Models.Product>
+
 <!DOCTYPE html>
 <html>
 <head>
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 </head>
 <body>
-    <div class="container w-75" style="border: 1px solid">
+    <div class="container ">
         <header>
-            <div class="row">
+            <div class="row" style="font-weight: bold">
                 <div class="col-2">
-                    <img src="~/Content/Image/icon.jpg" style="width:120px" />
+                    <img src="~/Content/Image/icon.jpg" style="width:120px; border-radius: 10px; margin-top: 5px" />
                 </div>
                 <div class="col-7 text-center">
                     <h3 style="color: red">NHÀ PHÂN PHỐI VẬT TƯ NGÀNH LẠNH GIÁ SỈ</h3>
                     <p style="color:blue">
-                        CÔNG TY TNHH BLUE SEA|<span style="color:red">MST:</span>0312980770 <br />
+                        CÔNG TY TNHH BLUE SEA | <span style="color:red">MST:</span>0312980770 <br />
                         <span style="color:red">CỬA HÀNG: </span>31 VÕ TRƯỜNG TOẢN, P.2, Q.BÌNH THẠNH, TP.HCM<br />
-                        VẬTTƯNGÀNHLẠNH.<span style="color: red">VN</span> | <span style="text-decoration: underline; color: aquamarine">0901 80 5000</span> | <span style="text-decoration: underline; color: aquamarine">08 62 58 10 20</span>
-                    </p> 
-                    
-                    <p style="color:blue"></p>
+                        VẬTTƯNGÀNHLẠNH.<span style="color: red">VN</span> | <span style="text-decoration: underline; color: rgb(68, 169, 255)">0901 80 5000</span> | <span style="text-decoration: underline; color: rgb(68, 169, 255) ">08 62 58 10 20</span>
+                    </p>
+
 
 
                 </div>
                 <div class="col-3">
-                    <h3 style="color: rgb(0, 138, 190); text-decoration: underline" align="right">0901 80 5000 <br />
+                    <h3 style="color: rgb(0, 138, 190); text-decoration: underline" align="right">
+                        0901 80 5000 <br />
                         08 6258 1020
                     </h3>
-                    
+
                 </div>
             </div>
         </header>
+        <ul class="nav justify-content-end" style="font-size: 12px; font-weight: bold; margin-top: -10px">
+            <li class="nav-item" >
+                <a class="nav-link active" aria-current="page" href="#">TRANG CHỦ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">GIỚI THIỆU</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">SẢN PHẨM</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">BẢNG GIÁ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">TIN TỨC</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">LIÊN HỆ</a>
+            </li>
+
+        </ul>
+
+        <ul class="nav justify-content-start fw-bold text-white" style="background-color: rgb(0, 138, 190)">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">ỐNG ĐỒNG</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">GAS LẠNH</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">DÂY ĐIỆN</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">ỐNG CÁCH NHIỆT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">GEL CÁCH NHIỆT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">TÁN CÁCH NHIỆT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">VẬT TƯ KHÁC</a>
+            </li>
+
+        </ul>
+        <div class="row">
+            <div class="col-3">
+                <div class="leftMenu" style="margin:10px 10px">
+
+                    <div class="fw-bold p-1" style="background-color: rgb(0, 138, 190); color: white">
+                        <h5 class="ms-5">DANH MỤC</h5>
+                    </div>
+
+
+                    <ul class="list-group list-group-flush mb-2 ">
+                        <li class="list-group-item">ỐNG ĐỒNG</li>
+                        <li class="list-group-item">GAS LẠNH</li>
+                        <li class="list-group-item">DÂY ĐIỆN
+                            <ul class="list-group list-group-flush mb-2 ">
+                                <li class="list-group-item">DÂY ĐIỆN CADIVI</li>
+                                <li class="list-group-item">DÂY ĐIỆN DAPHACO</li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item">TẤM CÁCH NHIỆT</li>
+
+
+
+                    </ul>
+
+
+                    <div class="mb-2 text-white" style="background-color: rgb(0, 138, 190)">
+                        <p style="font-size: 25px" align="center">Hỗ trợ trực tuyến</p>
+                        <div class="row">
+                            <div class="col-6 ms-4">
+                                <p>Mr. Trường</p>
+                            </div>
+                            <div class="col-6">
+                                <img />
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+
+                            </div>
+                            <div class="col-6">
+                                <img />
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="mb-2 text-white p-1 text-center" style="background-color: rgb(0, 138, 190)">
+                        <h5>FACEBOOK FANPAGE</h5>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-9">
+                @RenderBody()
+            </div>
+        </div>
         
 
+
         <footer>
+            <div class=" p-4  text-white fw-bold" style="background-color: rgb(0, 138, 190)">
+                <p class="ms-4">
+                    <span class="text-danger">CÔNG TY TNHH BLUE SEA</span> | MST: 0312980770 <br />
+                    CỬA HÀNG: 31 VÕ TRƯỜNG TOẢN, P.2, Q.BÌNH THẠNH, TP.HCM<br />
+                    TỔNG ĐÀI CSKH: 1900 72 75<br />
+                    FAX: 08 62 912 313
+                </p>
+            </div>
         </footer>
     </div>
 

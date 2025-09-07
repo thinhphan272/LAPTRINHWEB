@@ -16,7 +16,7 @@ namespace Bai4
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "_LayoutPage", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "TrangChu", id = UrlParameter.Optional }
             );
         }
     }
