@@ -1,7 +1,10 @@
 ﻿
 @{
     Layout = null;
+
+
 }
+
 
 <!DOCTYPE html>
 
@@ -10,9 +13,39 @@
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
 </head>
-<body>
-    <div> 
+<body class="container w-50" style="border: 1px solid; border-radius:10px">
+    <h2 align="center">NHẬP SÁCH VÀO KHO</h2>
+    @using (Html.BeginForm("BookInfor", "Book", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="mb-3">
+            <label class="form-label">Mã sách</label>
+            <input type="text" name="bookID" class="form-control" />
 
-    </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tên sách</label>
+            <input type="text" name="bookName" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Giá</label>
+            <input type="number" name="price" class="form-control"/>
+
+        </div>
+        <div class="mb-3">
+            <label for="formFile" class="form-label">File Image Input</label>
+            <input class="form-control" type="file" name="ImageUrl" id="formFile"/>
+            
+        </div>
+        <div class="mb-3" align="center">
+            <button type="submit" class="btn btn-primary">Nhập</button>
+            <button type="reset" class="btn btn-danger">Reset</button>
+        </div>
+
+    }
 </body>
 </html>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

@@ -3,6 +3,8 @@
     Layout = null;
 }
 
+@model Bai05.Models.Book
+
 <!DOCTYPE html>
 
 <html>
@@ -10,8 +12,33 @@
     <meta name="viewport" content="width=device-width" />
     <title>BookInfor</title>
 </head>
-<body>
-    <div> 
-    </div>
+<body class="container w-50">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Mã Sách</th>
+                <th scope="col">Tên Sách</th>
+                <th scope="col">Giá</th>
+                <th scope="col">Ảnh Bìa</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+
+                <tr>
+                    <td>@Model.bookID </td>
+                    <td>@Model.bookName</td>
+                    <td>@Model.price</td>
+                    <td><img src="@Url.Content(ViewBag.MyImage)" /></td>
+                </tr>
+
+
+            }
+        </tbody>
+    </table>
+
 </body>
 </html>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
