@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "MHXacNhan";
+}
+@model LTWeb_Buoi3.Models.Information
+
+<h2>MHXacNhan</h2>
+
+<div class="container w-50">
+    <h2>ARE YOU READY YOUR INFORMATION IS CORRECT</h2>
+    <p><strong>Your full name is:</strong> @Model.FullName</p>
+    <p><strong>Your ID Student is: </strong>@Model.IdStudent</p>
+    <p><strong>Your Email is: </strong>@Model.Email</p>
+    
+    <p>Your photo: <img src="@Url.Content(ViewBag.MyImage)" /></p>
+    <p>Your note is: @Model.Note</p>
+    <p><strong>Your Email is: </strong>
+        @if (Model.Check1) { <span>TV </span>}
+        @if (Model.Check2) { <span>Website </span>}
+        @if (Model.Check3) { <span>Báo chí </span>}
+    
+    </p>
+
+    <p><strong>Choose Work Time: </strong>@Model.ChooseWorkTime</p>
+    <p><strong>Select an Course: </strong>@Model.SelectCourse</p>
+    <p>If your information is incorrect. Please go back <a href="~/Views/Home/Index.cshtml" style="text-decoration: underline; font-weight: bold">INDEX PAGE</a></p>
+
+</div>
+
+
+
