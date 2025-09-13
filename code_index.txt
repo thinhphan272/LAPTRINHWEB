@@ -1,7 +1,8 @@
-﻿@{
+@{
     ViewBag.Title = "Home Page";
 }
 @model LTWeb_Buoi3.Models.Information
+
 
 <div class="container w-50">
     <h2>ENTER INFORMATION TO REGIST AN COURSE</h2>
@@ -39,7 +40,7 @@
                 <label class="form-label">We are Known by</label>
                 <div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="Check1" value="true"  id="checkTV" />
+                        <input class="form-check-input" type="checkbox" name="Check1" value="true" id="checkTV" />
                         <label class="form-check-label" for="checkTV">
                             Television
                         </label>
@@ -72,19 +73,19 @@
 
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="ChooseWorkTime" id="AFT246" value="Afternoon(2 - 4 - 6)" />
+                        <input class="form-check-input" type="radio" name="ChooseWorkTime" id="AFT246" />
 
                         <label class="form-check-label" for="AFT246">Afternoon(2 - 4 - 6)</label>
 
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="ChooseWorkTime" id="MN357" value="Morning(3 - 5 - 7)" />
+                        <input class="form-check-input" type="radio" name="ChooseWorkTime" id="MN357" />
 
                         <label class="form-check-label" for="MN357">Morning(3 - 5 - 7)</label>
 
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="ChooseWorkTime" id="AFT357" value="Afternoon(3 - 5 - 7)" />
+                        <input class="form-check-input" type="radio" name="ChooseWorkTime" id="AFT357" />
 
                         <label class="form-check-label" for="AFT357">Afternoon(3 - 5 - 7)</label>
 
@@ -95,8 +96,8 @@
             </div>
             <div class="mb-3">
                 <label class="form-label">Select an course</label>
-                @Html.DropDownList("SelectCourse", (SelectList)ViewBag.LCourse, "---Chọn lớp---")
-                
+                @Html.DropDownList("SelectCourse", (SelectList)ViewBag.LCourse, "---Chọn lớp---", new { @class = "form-control" })
+
             </div>
 
             <div>

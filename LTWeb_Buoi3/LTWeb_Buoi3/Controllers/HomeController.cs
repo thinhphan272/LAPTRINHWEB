@@ -10,13 +10,7 @@ namespace LTWeb_Buoi3.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
-        {
-            List<string> LCourse = new List<string>() {"1. HTML", "2. SQL" };
-            ViewBag.LCourse = new SelectList(LCourse);
-            return View();
-        }
-
+        
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -70,6 +64,13 @@ namespace LTWeb_Buoi3.Controllers
             ViewBag.Message = "Tên: " + sp.Name + ", Giá: " + sp.Price;
             return View();
         }
+        public ActionResult Index()
+        {
+            List<string> LCourse = new List<string>() { "1. HTML", "2. SQL" };
+            ViewBag.LCourse = new SelectList(LCourse);
+            return View();
+        }
+
 
         public ActionResult MHXacNhan(Information infor, HttpPostedFileBase File)
         {
@@ -90,7 +91,7 @@ namespace LTWeb_Buoi3.Controllers
                     File.SaveAs(path);
                 }
                 ViewBag.MyImage = Dir + "/" + FileName;
-                return View();
+                return View(valueForm);
             }
             return View("Index", infor);
         }

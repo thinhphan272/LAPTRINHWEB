@@ -17,7 +17,7 @@ namespace LTWeb_Buoi3.Models
         public bool Check3 { get; set; }
 
         public string ChooseWorkTime { get; set; }
-        public int SelectCourse { get; set;  }
+        public string SelectCourse { get; set;  }
        
     }
 }

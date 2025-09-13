@@ -5,27 +5,39 @@
 @model LTWeb_Buoi3.Models.Information
 
 <h2>MHXacNhan</h2>
+@{
+    <div class="container w-50">
+        <h2>ARE YOU READY YOUR INFORMATION IS CORRECT</h2>
+        <p><strong>Your full name is:</strong> @Model.FullName</p>
+        <p><strong>Your ID Student is: </strong>@Model.IdStudent</p>
+        <p><strong>Your Email is: </strong>@Model.Email</p>
 
-<div class="container w-50">
-    <h2>ARE YOU READY YOUR INFORMATION IS CORRECT</h2>
-    <p><strong>Your full name is:</strong> @Model.FullName</p>
-    <p><strong>Your ID Student is: </strong>@Model.IdStudent</p>
-    <p><strong>Your Email is: </strong>@Model.Email</p>
-    
-    <p>Your photo: <img src="@Url.Content(ViewBag.MyImage)" /></p>
-    <p>Your note is: @Model.Note</p>
-    <p><strong>Your Email is: </strong>
-        @if (Model.Check1) { <span>TV </span>}
-        @if (Model.Check2) { <span>Website </span>}
-        @if (Model.Check3) { <span>Báo chí </span>}
-    
-    </p>
+        <p>Your photo: <img src="@Url.Content(ViewBag.MyImage)" /></p>
+        <p>Your note is: @Model.Note</p>
+        <p>
+            <strong>We are known by </strong>
+            @if (Model.Check1)
+            {<span>TV </span>}
+            @if (Model.Check2)
+            {<span>Website </span>}
+            @if (Model.Check3)
+            {<span> </span>}
 
-    <p><strong>Choose Work Time: </strong>@Model.ChooseWorkTime</p>
-    <p><strong>Select an Course: </strong>@Model.SelectCourse</p>
-    <p>If your information is incorrect. Please go back <a href="~/Views/Home/Index.cshtml" style="text-decoration: underline; font-weight: bold">INDEX PAGE</a></p>
+        </p>
 
-</div>
+        <p><strong>Choose Work Time: </strong>@Model.ChooseWorkTime</p>
+        <p><strong>Select an Course: </strong>@Model.SelectCourse</p>
+        <p>If your information is incorrect. Please go back <a href="@Url.Action("Index", "Home")" style="text-decoration: underline; font-weight: bold">INDEX PAGE</a></p>
+
+    </div>
+
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+
 
 
 
