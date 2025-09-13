@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTWeb_Buoi3", "LTWeb_Buoi3\LTWeb_Buoi3.csproj", "{231833D1-D5CF-4B03-B139-7249C2B57BC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai05", "Bai05\Bai05.csproj", "{9F07C62F-1901-4561-B745-4A804207555D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{231833D1-D5CF-4B03-B139-7249C2B57BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{231833D1-D5CF-4B03-B139-7249C2B57BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{231833D1-D5CF-4B03-B139-7249C2B57BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F07C62F-1901-4561-B745-4A804207555D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F07C62F-1901-4561-B745-4A804207555D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F07C62F-1901-4561-B745-4A804207555D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F07C62F-1901-4561-B745-4A804207555D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
