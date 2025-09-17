@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "_Menu";
+}
+
+<h2>_Menu</h2>
+
+<nav>
+    <ul>
+        <li>@Html.ActionLink("🏠 Trang chủ", "Index", "Home")</li>
+        <li>@Html.ActionLink("Sản phẩm", "Index", "Product")</li>
+        <li>@Html.Action("_CartSummary")</li>
+    </ul>
+
+</nav>

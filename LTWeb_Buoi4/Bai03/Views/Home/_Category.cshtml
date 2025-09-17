@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "_Category";
+}
+@model Bai03.Models.Data
+
+
+@foreach (var c in Model.lstCategory)
+{
+    <ul class="list-group list-group-horizontal w-100 text-center" >
+        <li class="list-group-item w-100" style="background-color: rgb(89, 255, 179)"><h3>@c.categoryName (@c.categoryID)</h3></li>
+        
+    </ul>
+   
+
+}

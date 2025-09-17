@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "_ProductList";
+}
+@model Bai03.Models.Data
+@foreach (var p in Model.lstProduct)
+{
+    <div class="card ms-3 mt-5 w-100" style="width: 18rem; display: flex; justify-content: center; align-items: center" >
+
+        <div class="card-body ">
+            <h5 class="card-title">@p.productName</h5>
+            <p class="card-text">@p.price</p>
+            <a href="#" class="btn btn-primary">Thêm vào giỏ</a>
+        </div>
+    </div>
+}
+

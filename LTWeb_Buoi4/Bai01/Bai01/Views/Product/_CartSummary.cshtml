@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "_CartSummary";
+    
+}
+
+<h2>_CartSummary</h2>
+
+@{
+    int soLuong = ViewBag.SoLuongGioHang ?? 0;
+}
+
+<a href="@Url.Action("CartIndex", "Cart")">🛒 Giỏ hàng (@soLuong)</a>
