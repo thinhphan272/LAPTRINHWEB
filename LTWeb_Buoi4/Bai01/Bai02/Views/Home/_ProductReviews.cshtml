@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "ProductDetail";
+}
+@model Bai02.Models.Feedback
+
+<div class="feedback-section">
+    <div class="rating-overview" style="padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3);">
+        <h4>Tổng quan đánh giá</h4>
+        <div class="average-rating">
+            <strong>@Model.averageRating.ToString("0.0") / 5</strong>
+            <span>(Tổng: @Model.totalComment đánh giá)</span>
+        </div>
+
+        <div class="rating-bars">
+            @for (int i = 5; i >= 1; i--)
+            {
+                double percentage = @Model.ratingPercent(i);
+                <div class="rating-item" style="display: flex; align-items: center; margin: 10px 0;">
+                    <span style="width: 50px;">@i ★</span>
+                    <div class="progress" style="height: 20px; width: 200px; background: #e9ecef; margin: 0 10px;">
+                        <div class="progress-bar"
+                             style="width: @percentage%; background-color: #3596ff;">
+                        </div>
+                    </div>
+                    <span style="width: 50px;">@Model.RatingCounts[i]</span>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .progress {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .progress-bar {
+        height: 100%;
+        transition: width 0.5s ease;
+    }
+
+    .rating-item {
+        display: flex;
+        align-items: center;
+    }
+</style>

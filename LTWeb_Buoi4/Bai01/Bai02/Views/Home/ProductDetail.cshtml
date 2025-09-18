@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "ProductDetail";
+}
+@model Bai02.Models.Product
+
+<h2>Product Detail</h2>
+<div class="container h-75" style="background-color: rgb(225, 225, 225); border-radius:10px">
+    <div class="row">
+        <div class="col-6 ms-3 mt-3 mb-3" style="background-color: white; box-shadow: 5px 5px 15px rgba(0,0,0,0.3);border-radius: 10px">
+            <div class="row mt-3">
+                <div class="col-5 product-image mt-5">
+                    <img width="240" src="@Model.productImg" alt="@Model.productName" style="border-radius: 10px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3);" />
+                </div>
+
+                <div class="col-7 product-info w-50" >
+                    <h4>@Model.productName</h4>
+                    <hr />
+                    <p class="description">@Model.productDescription</p>
+                    <p class="price">Giá: @Model.FormattedPrice</p>
+
+                    @Html.Action("_ProductReviews")
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="col-5 ms-5 mt-3 mb-3 pt-3 pb-3" style=" background-color: white; box-shadow: 5px 5px 15px rgba(0,0,0,0.3);border-radius: 10px">
+            @Html.Action("_Comment")
+        </div>
+
+       
+
+    </div>
+
+</div>
+

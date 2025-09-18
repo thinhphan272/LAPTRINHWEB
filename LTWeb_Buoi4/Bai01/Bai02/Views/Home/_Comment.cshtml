@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "_Comment";
+}
+@model List<Bai02.Models.Comment>
+
+
+
+<div>
+    <div class="comments-section">
+        <h3>Bình luận khách hàng</h3>
+        @foreach (var item in Model)
+        {
+            <div class="comment" style="padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3);">
+                <div comment-header>
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="@item.userAvatar" alt="@item.userName" style="border-radius: 50%" width="40" height="40" />
+                        </div>
+                        <div class="col-11">
+                            <strong>@item.userName</strong> - @item.FormattedDate
+                            <p>@item.commentContent</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rating-stars mb-3">@item.StarRating</div>
+
+            </div>
+        }
+
+        <button class="btn btn-dark">Xem tất cả...</button>
+
+    </div>
+</div>
+
